@@ -1,0 +1,19 @@
+{
+  "dataSlider": [
+    {
+      "img": "/images/slider/slider1.jpg",
+      "title": "Medikal Giyim",
+      "subTitle": "Konfor ve kalite"
+    },
+    {
+      "img": "/images/slider/slider2.jpg",
+      "title": "Kadın Giyim",
+      "subTitle": "Şık ve modern"
+    },
+    {
+      "img": "/images/slider/slider3.jpg",
+      "title": "Okul Ürünleri",
+      "subTitle": "Forma ve çanta"
+    }
+  ]
+}

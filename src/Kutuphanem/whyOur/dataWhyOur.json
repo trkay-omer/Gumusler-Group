@@ -1,0 +1,11 @@
+{
+  "title": "Neden Biz",
+  "desc": "Türkiye genelinde binlerce kuruma ve bireye kaliteli, dayanıklı ve estetik tekstil ürünleri sunuyoruz. Tasarımdan üretime, teslimattan satış sonrası desteğe kadar her adımda özenle çalışıyor, her ihtiyaca özel çözümler geliştiriyoruz.",
+  "iconImg": "/images/Icon/question-mark.png",
+  "posts": [
+    { "img": "teslim.jpeg", "title": "Toptan & Parekende" },
+    { "img": "isbirligi.jpeg", "title": "Kurumlara Özel Üretim" },
+    { "img": "memnun.jpg", "title": "Memnuniyet" },
+    { "img": "tecrube.jpeg", "title": "Tecrübeli Ekip" }
+  ]
+}

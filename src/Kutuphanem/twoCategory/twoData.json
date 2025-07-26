@@ -1,0 +1,16 @@
+{
+  "dataCategoryTwo": [
+    {
+      "title": "Kadın Giyim",
+      "desc": "Daha fazlası için lütfen ürünlerimiz inceleyin",
+      "buttonText": "Tümünü Gör",
+      "img": "/images/anasayfa/K1.jpeg"
+    },
+    {
+      "title": "Medikal Giyim",
+      "desc": "Daha fazlası için lütfen ürünlerimiz inceleyin",
+      "buttonText": "Tümünü Gör",
+      "img": "/images/anasayfa/K2.jpeg"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "dataAnaProduct": {
+    "yImg": "/images/anasayfa/mobil.png",
+    "xImg": "/images/anasayfa/kolaj.png",
+    "topSmallTitle": "| Tekstilde kalite ve güven!",
+    "titleFull": "Bir üretim yolculuğu...",
+    "titleItalic": "Her alanda şıklık",
+    "titleDev": "",
+    "titleDev2": "ve dayanıklılığı bir araya getiriyoruz.",
+    "desc": "Okul kıyafetinden iş elbiselerine, kadın giyimden kurumsal tekstile kadar geniş ürün yelpazemizle her ihtiyaca çözüm sunuyoruz. Yılların deneyimiyle kaliteyi, özeni ve şıklığı tek çatı altında buluşturuyoruz.",
+    "link": "/kategoriler",
+    "buttonText": "Ürünlerimizi İnceleyin"
+  }
+}

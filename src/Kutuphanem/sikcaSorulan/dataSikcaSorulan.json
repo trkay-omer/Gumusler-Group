@@ -1,0 +1,20 @@
+{
+  "faqs": [
+    {
+      "question": "Ürünlerinizde kalite ve dayanıklılığı nasıl sağlıyorsunuz?",
+      "answer": "Kumaş seçiminden dikiş detaylarına kadar her aşamada kalite kontrol uygulanır. Tüm ürünlerimiz, uzun ömürlü kullanım ve müşteri memnuniyeti hedefiyle üretilir."
+    },
+    {
+      "question": "Kurumsal siparişlerde özel üretim yapıyor musunuz?",
+      "answer": "Evet, iş yerleri, okullar ve diğer kurumlar için logo, renk ve model tercihlerine uygun özel üretimler yapıyoruz. Adetli alımlarda özel fiyatlandırma ve tasarım desteği de sunuyoruz."
+    },
+    {
+      "question": "Hangi ürün gruplarında hizmet veriyorsunuz?",
+      "answer": "Okul kıyafetleri, iş elbiseleri, kadın giyim, çanta ve kurumsal tekstil ürünlerinde geniş bir yelpazeye sahibiz. İhtiyaca özel çözümlerle her alana hitap ediyoruz."
+    },
+    {
+      "question": "Satış sonrası destek sunuyor musunuz?",
+      "answer": "Evet, kurumsal iş birliklerinde iade, değişim, beden uyumu gibi konularda destek sağlıyoruz. Müşteri memnuniyetini her zaman önceliğimiz olarak görüyoruz."
+    }
+  ]
+}
