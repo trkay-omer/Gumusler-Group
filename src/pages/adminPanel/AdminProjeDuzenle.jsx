@@ -23,11 +23,9 @@ const AdminProjeDuzenle = () => {
 
   const [images, setImages] = useState([]);
   const [imgKapak, setImgKapak] = useState(null);
-  const [pdf, setPdf] = useState(null);
 
   const [initialImages, setInitialImages] = useState([]); // İlk gelen resimler
   const [initialKapakImages, setInitialKapakImages] = useState(null); // İlk gelen kapak
-  const [initialPdf, setInitialPdf] = useState(null);
 
   const [categories, setCategories] = useState([]);
 
@@ -57,11 +55,9 @@ const AdminProjeDuzenle = () => {
           }));
           setImgKapak(response.data.coverImage);
           setImages(response.data.images);
-          setPdf(response.data.pdf);
+
           setInitialKapakImages(response.data.coverImage);
           setInitialImages(response.data.images);
-          setInitialPdf(response.data.pdf);
-          // Buraya pdf
 
           setTimeout(() => {
             setIsloading(false);
@@ -135,23 +131,6 @@ const AdminProjeDuzenle = () => {
             }
           );
         }
-      }
-
-      if (pdf !== initialPdf) {
-        const pdfData = new FormData();
-        pdfData.append("image", pdf);
-        pdfData.append("id", id);
-
-        const pdfResponse = await axios.post(
-          `${BASE_URL}/api/v1/image/pdf`,
-          pdfData,
-          {
-            headers: {
-              Authorization: `Bearer ${token}`,
-              "Content-Type": "multipart/form-data",
-            },
-          }
-        );
       }
 
       if (images !== initialImages) {
@@ -323,41 +302,6 @@ const AdminProjeDuzenle = () => {
                       required
                     />
                   </label>
-                </div>
-
-                <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                  }}
-                >
-                  <label>
-                    PDF:
-                    <input
-                      type="file"
-                      name="pdf"
-                      accept=".pdf"
-                      onChange={(e) => {
-                        const file = e.target.files[0];
-                        setPdf(file);
-                      }}
-                    />
-                  </label>
-
-                  {typeof pdf === "object" && pdf !== null && pdf.name ? (
-                    <p style={{ alignSelf: "flex-end", marginTop: "20px" }}>
-                      Yeni seçilen dosya: {pdf.name}
-                    </p>
-                  ) : pdf && pdf.filename ? (
-                    <a
-                      href={pdf.filename}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      style={{ alignSelf: "flex-end", marginTop: "20px" }}
-                    >
-                      Mevcut PDF'yi Görüntüle
-                    </a>
-                  ) : null}
                 </div>
 
                 <div>

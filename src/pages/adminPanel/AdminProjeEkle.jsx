@@ -11,7 +11,7 @@ const AdminProjeEkle = () => {
   const token = localStorage.getItem("authToken");
   const [images, setImages] = useState([]);
   const [imgKapak, setImgKapak] = useState(null);
-  const [pdf, setPdf] = useState(null);
+
   const [formData, setFormData] = useState({
     title: "",
     categoryId: "",
@@ -62,7 +62,6 @@ const AdminProjeEkle = () => {
       if (response.status === 201) {
         const uploadFormData = new FormData();
         const kapakData = new FormData();
-        const pdfData = new FormData();
 
         if (images.length > 0) {
           images.forEach((image) => {
@@ -83,18 +82,6 @@ const AdminProjeEkle = () => {
           kapakData.append("id", response.data.id);
 
           await axios.post(`${BASE_URL}/api/v1/image/cover`, kapakData, {
-            headers: {
-              Authorization: `Bearer ${token}`,
-              "Content-Type": "multipart/form-data",
-            },
-          });
-        }
-
-        if (pdf) {
-          pdfData.append("image", pdf);
-          pdfData.append("id", response.data.id);
-
-          await axios.post(`${BASE_URL}/api/v1/image/pdf`, pdfData, {
             headers: {
               Authorization: `Bearer ${token}`,
               "Content-Type": "multipart/form-data",
@@ -236,21 +223,6 @@ const AdminProjeEkle = () => {
                       value={formData.title}
                       onChange={handleChange}
                       required
-                    />
-                  </label>
-                </div>
-
-                <div>
-                  <label>
-                    PDF:
-                    <input
-                      type="file"
-                      name="pdf"
-                      accept=".pdf"
-                      onChange={(e) => {
-                        const file = e.target.files[0];
-                        setPdf(file);
-                      }}
                     />
                   </label>
                 </div>
