@@ -13,6 +13,7 @@ import FullImg from "../../Kutuphanem/fullImg/FullImg";
 import FadeInSection from "../../components/FadeInSection/FadeInSection";
 import SliderLeft from "../../Kutuphanem/sliderLeft/SliderLeft";
 import TwoCategory from "../../Kutuphanem/twoCategory/TwoCategory";
+import WhoFounderTwo from "../../Kutuphanem/whoFounder2/WhoFounderTwo";
 
 const Anasayfa = () => {
   const [projeler, setProjeler] = useState([]);
@@ -76,6 +77,7 @@ const Anasayfa = () => {
           ))}
         </div>
       </div>
+      <WhoFounderTwo />
       <SikcaSorulan />
     </div>
   );

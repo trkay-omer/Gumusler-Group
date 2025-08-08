@@ -1,9 +1,10 @@
 import Baslik from "../baslik/Baslik";
 import Acardion from "./acardion/Acardion";
-import "./WhoFounder.scss";
+import "./WhoFounderTwo.scss";
 import { founderData, title, desc } from "./dataWho.json";
+import Counts from "../countSayi/Counts";
 
-const WhoFounder = () => {
+const WhoFounderTwo = () => {
   return (
     <div className="whoUsing">
       <div className="container">
@@ -19,4 +20,4 @@ const WhoFounder = () => {
   );
 };
 
-export default WhoFounder;
+export default WhoFounderTwo;

@@ -10,11 +10,14 @@
   .sliderImg {
     width: 100%;
     height: auto;
+    border: 1px solid gray;
+    padding: 5px;
 
     img {
       width: 100%;
       aspect-ratio: 5 / 4;
       border-radius: 10px;
+      object-fit: contain;
     }
   }
 

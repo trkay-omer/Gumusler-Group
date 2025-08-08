@@ -9,11 +9,13 @@
     width: 100%;
     height: auto;
     border-radius: 15px;
+    border: 1px solid gray;
 
     img {
       border-radius: 15px;
       width: 100%;
       aspect-ratio: 5 / 4;
+      object-fit: contain;
     }
   }
 

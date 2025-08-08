@@ -27,15 +27,6 @@ const NameAndMarka = ({ name, desc, pdf }) => {
           >
             Whatsapp Mesaj
           </a>
-          <a
-            href={pdf?.filename}
-            download
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btnSepet red"
-          >
-            PDF İndir
-          </a>
         </div>
       </div>
     </div>
