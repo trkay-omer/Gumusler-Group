@@ -21,6 +21,7 @@ import ScrollToTop from "./components/scrollTop/ScrollToTop.jsx";
 import AdminCategoryCreate from "./pages/adminPanel/AdminCategoryCreate.jsx";
 import AdminCategoryEdit from "./pages/adminPanel/AdminCategoryEdit.jsx";
 import PaketDetay from "./pages/PaketDetay/PaketDetay.jsx";
+import Referanslar from "./pages/Referanslar/Referanslar.jsx";
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
         <Route path="/iletisim" element={<Iletisim />} />
         <Route path="/kurumsal" element={<Hakkimizda />} />
         <Route path="/admin-login" element={<AdminLogin />} />
+        <Route path="/referanslar" element={<Referanslar />} />
 
         <Route
           path="/admin"

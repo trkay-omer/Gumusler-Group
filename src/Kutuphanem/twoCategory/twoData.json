@@ -4,13 +4,15 @@
       "title": "Kadın Giyim",
       "desc": "Daha fazlası için lütfen ürünlerimiz inceleyin",
       "buttonText": "Tümünü Gör",
-      "img": "/images/anasayfa/K1.jpeg"
+      "img": "/images/anasayfa/K1.jpeg",
+      "link": "/kategoriler"
     },
     {
       "title": "Medikal Giyim",
       "desc": "Daha fazlası için lütfen ürünlerimiz inceleyin",
       "buttonText": "Tümünü Gör",
-      "img": "/images/anasayfa/K2.jpeg"
+      "img": "/images/anasayfa/K2.jpeg",
+      "link": "/kategoriler/medical-forma"
     }
   ]
 }

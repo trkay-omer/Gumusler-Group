@@ -14,6 +14,7 @@ const TwoCategory = () => {
         <div className="product-cards">
           {dataCategoryTwo.map((card, index) => (
             <CardItem
+              link={card.link}
               title={card.title}
               desc={card.desc}
               buttonText={card.buttonText}

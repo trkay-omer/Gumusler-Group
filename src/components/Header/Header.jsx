@@ -24,6 +24,7 @@ const Header = () => {
     { to: "/", label: "Anasayfa" },
     { to: "/kategoriler", label: "Ürünlerimiz" },
     { to: "/kurumsal", label: "Kurumsal" },
+    { to: "/referanslar", label: "Referanslar" },
     { to: "/iletisim", label: "İletişim" },
   ];
 
