@@ -62,10 +62,6 @@ const PaketDetay = () => {
       </div>
 
       <div className="container">
-        <div className="tabletNamee">
-          <h3>Paket Resimlerimiz</h3>
-        </div>
-
         <div className="mainTop">
           <div className="mainSectionSide">
             <div className="product-gallery">
@@ -91,9 +87,7 @@ const PaketDetay = () => {
         </div>
       </div>
 
-      <div className="container">
-        <SikcaSorulan />
-      </div>
+      <SikcaSorulan />
     </div>
   );
 };

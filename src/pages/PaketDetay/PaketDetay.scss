@@ -26,10 +26,9 @@
       gap: 2rem;
       z-index: 3;
       position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
+      width: 90%;
       align-items: center;
+      text-align: center;
 
       .location {
         display: inline-block;
@@ -52,7 +51,7 @@
       .title {
         h1 {
           color: whitesmoke;
-          font-size: 2.5rem;
+          font-size: 2rem;
         }
       }
     }
@@ -409,7 +408,7 @@
         }
         .title {
           h1 {
-            font-size: 1.5rem;
+            font-size: 1.3rem;
           }
         }
       }
