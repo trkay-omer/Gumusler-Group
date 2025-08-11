@@ -101,7 +101,7 @@
       width: 100%;
       justify-content: space-around;
 
-      li {
+      a {
         flex: 0 1 270px;
         // scale: 1.1;
         z-index: 10;
@@ -127,7 +127,7 @@
       :nth-child(3) {
         display: none;
       }
-      li {
+      a {
         flex: 0 1 270px;
         z-index: 10;
         opacity: 1;
