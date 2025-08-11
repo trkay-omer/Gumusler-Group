@@ -36,14 +36,38 @@ const Footer = () => {
           <hr />
           <ul>
             <li className="sag">
-              <div className="yeap">
+              <div className="yeap ">
                 <PhoneIcon />
 
-                <a href={data.telefon_linki}>
-                  <span style={{ marginRight: "-0.5rem" }} className="ici">
-                    {data.telefon}
-                  </span>
-                </a>
+                <div
+                  style={{
+                    display: "flex",
+                    flexDirection: "column",
+                    gap: "0.3rem",
+                  }}
+                  className="div"
+                >
+                  <a href={data.telefon_linki}>
+                    <span style={{ marginRight: "-0.5rem" }} className="ici">
+                      {data.Ad1} : {data.telefon}
+                    </span>
+                  </a>
+                  <a href={data.telefon2_linki}>
+                    <span style={{ marginRight: "-0.5rem" }} className="ici">
+                      {data.Ad2} : {data.telefon2}
+                    </span>
+                  </a>
+                  <a href={data.telefon3_linki}>
+                    <span style={{ marginRight: "-0.5rem" }} className="ici">
+                      {data.Ad3} : {data.telefon3}
+                    </span>
+                  </a>
+                  <a href={data.telefon4_linki}>
+                    <span style={{ marginRight: "-0.5rem" }} className="ici">
+                      {data.Ad4} : {data.telefon4}
+                    </span>
+                  </a>
+                </div>
               </div>
             </li>
 
@@ -55,6 +79,17 @@ const Footer = () => {
               >
                 <InstagramIcon />
                 <span>{data.instagram}</span>
+              </a>
+            </li>
+
+            <li className="sag">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href={data.instagram2_linki}
+              >
+                <InstagramIcon />
+                <span>{data.instagram2}</span>
               </a>
             </li>
 

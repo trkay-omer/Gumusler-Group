@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./Acardion.scss";
 
 function Acardion({ users }) {
@@ -5,7 +6,7 @@ function Acardion({ users }) {
     <div className="acardion-template">
       <ul className="acardion">
         {users?.map((user, index) => (
-          <li key={index}>
+          <Link to={"/iletisim"} key={index}>
             <img src={user.img} alt="" />
             <div className="content">
               <span>
@@ -13,7 +14,7 @@ function Acardion({ users }) {
                 <p>{user.job}</p>
               </span>
             </div>
-          </li>
+          </Link>
         ))}
       </ul>
     </div>
