@@ -22,10 +22,12 @@ const Iletisim = () => {
 
           <div className="infoIletisim">
             <div className="itemIletisim">
-              <h3>Adres Bilgilerimiz</h3>
+              <h4>Fabrika</h4>
               <p>{data.adres}</p>
+              <h4>Mağazalarımız</h4>
               <p>{data.adres2}</p>
               <p>{data.adres3}</p>
+              <p>{data.adres4}</p>
             </div>
 
             <div className="itemIletisim">
@@ -73,11 +75,11 @@ const Iletisim = () => {
                 <a
                   id="sea"
                   target="_blank"
-                  href={data.instagram_linki}
+                  href={data.instagram2_linki}
                   className="itemList"
                 >
                   <InstagramIcon />
-                  <p>{data.instagram}</p>
+                  <p>{data.instagram2}</p>
                 </a>
               </div>
             </div>
