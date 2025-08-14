@@ -33,10 +33,7 @@ const Categories = () => {
   return (
     <div className="categoriesPage">
       <div className="container">
-        <Baslik
-          title={"Proje Kategorileri"}
-          desc={"Lütfen bir kategori seçin!"}
-        />
+        <Baslik title={"Kategoriler"} desc={"Lütfen bir kategori seçin!"} />
         <div className="categoryCardsContent">
           {categoryies.map((item, index) => (
             <CategoryCard

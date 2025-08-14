@@ -12,6 +12,11 @@
     },
     {
       "img": "/images/slider/3.png",
+      "title": "İş Güvenliği",
+      "subTitle": "Kıyafetleri"
+    },
+    {
+      "img": "/images/slider/4.png",
       "title": "Okul Ürünleri",
       "subTitle": "Forma ve çanta"
     }
