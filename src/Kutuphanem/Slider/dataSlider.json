@@ -1,22 +1,22 @@
 {
   "dataSlider": [
     {
-      "img": "/images/slider/1.png",
+      "img": "/images/slider/1.jpeg",
       "title": "Kadın Giyim",
       "subTitle": "Konfor ve kalite"
     },
     {
-      "img": "/images/slider/2.png",
+      "img": "/images/slider/2.jpeg",
       "title": "Medical Giyim",
       "subTitle": "Şık ve modern"
     },
     {
-      "img": "/images/slider/3.png",
+      "img": "/images/slider/3.jpeg",
       "title": "İş Güvenliği",
       "subTitle": "Kıyafetleri"
     },
     {
-      "img": "/images/slider/4.png",
+      "img": "/images/slider/4.jpeg",
       "title": "Okul Ürünleri",
       "subTitle": "Forma ve çanta"
     }
